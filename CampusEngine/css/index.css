@@ -47,6 +47,11 @@ nav{
     font-size: 25px;
 
 }
+/* .ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+} */
 .alink{
     display: flex;
     color: rgb(255, 255, 255);
