@@ -6,18 +6,53 @@
     <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CampersEngine</title>
-    <link rel="stylesheet" href="/tiendaComida/style.css">
+    <link rel="stylesheet" href="css/tienda.css">
+    <script src="/js/tienda.js" defer></script>
     
 </head>
 <body>
     <nav>
         <section class="container1">
-            <img id="logo" src="/images/logoWhite.png" alt="">
+            <img id="logo" src="src/images/logoWhite.png" alt="">
+            
+            <a  class="alink" href="index.html">Inicio</a>
+            <a  class="alink" href="servicios.html">Servicios</a>
+            <a  class="alink" href="soporte.html">Soporte</a>
+
+            <div id="logo">
+                <img class="cart" src="src/images/cart-regular-24.png" alt="">
+                <p>0</p>
+            </div>
         </section>
     </nav>
 
-    <header>
-    </header>
-    <script src="/js/tienda.js" ></script>
+    <div class="first-message">
+        <h1>Cafatereia Virtual</h1>
+        <p>Seccion de Compra</p>
+        <h3>Catalogo</h3>
+    </div>
+
+    <div class="products">
+        <div class="carts">
+            <img src="src/images/papasmargarita.jpg" alt="">
+            <p>Papas</p>
+            <p>2000$</p>
+            <a href="">AÑADIR AL CARRITO</a>
+        </div>
+        <div class="carts">
+            <img src="src/images/Pastel-de-Pollo7.jpg" alt="">
+            <p>Pasteles</p>
+            <p>2300$</p>
+            <a href="">AÑADIR AL CARRITO</a>
+        </div>
+        <div class="carts">
+            <img src="src/images/Color-del-cafe-filtrado-y-su-parecido-con-el-color-de-un-vino-tinto.-scaled.jpg" alt="">
+            <p>Café</p>
+            <p>800$</p>
+            <a href="">AÑADIR AL CARRITO</a>
+        </div>
+    </div>
+
+
 </body>
 </html>
